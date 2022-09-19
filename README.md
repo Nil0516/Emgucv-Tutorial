@@ -8,6 +8,7 @@
 
 ## 文章連結
 
-* [[VS] C# - 使用NuGet進行套件安裝](https://ithelp.ithome.com.tw/articles/10285808)
+* [[VS] C# - 使用NuGet進行套件安裝](https://ithelp.ithome.com.tw/articles/10285808) 
+* [[VS] C# - [01] EmguCV 影像讀取](https://ithelp.ithome.com.tw/articles/10292652)
  
 ---
