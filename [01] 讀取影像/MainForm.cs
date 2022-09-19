@@ -47,7 +47,9 @@ namespace MyEmgucv
         {
             try
             {
-                //Bitmap bitmap = new Bitmap(m_imagePath);
+                // 為 Bitmap 讀取方式。
+                // Bitmap bitmap = new Bitmap(m_imagePath);
+                // 該方法則為 EmguCV 的讀取方式。
                 m_image = new Image<Bgr, byte>(path);
                 pictureBoxDisplayImage.Image = (Bitmap)m_image.ToBitmap().Clone();
                 pictureBoxDisplayImage.Invalidate();
